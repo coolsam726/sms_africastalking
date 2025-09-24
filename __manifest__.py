@@ -12,6 +12,9 @@ up their account to start sending SMS messages. This is especially suitable for 
         'sms',
         'sms_twilio'
     ],
+    'external_dependencies': {
+        'python': ['requests','africastalking'],
+    },
     'data': [
         'views/res_config_settings_views.xml',
         'views/sms_sms_views.xml',
